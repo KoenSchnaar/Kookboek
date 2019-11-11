@@ -1,0 +1,9 @@
+﻿@model  Kookboek.Models.ReceptModel
+
+<h1>Voeg hier een recept toe.</h1>
+<form asp-action="AddRecept">
+
+    @Html.EditorForModel()
+
+    <button type ="submit">Voeg toe</button>
+</form>

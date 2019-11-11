@@ -1,0 +1,13 @@
+﻿@model Kookboek.Models.GerechtIngrediëntenModel
+
+    <div class="flexbox">
+        <text class="TextforBox1">@Html.LabelFor(m => m.Ingrediënt)</text>
+        <text class="TextforBox2">@Html.LabelFor(m => m.Hoeveelheid)</text>
+        <text class="TextforBox3">@Html.LabelFor(m => m.Eenheid)</text><br />
+    </div>
+
+    <div class="flexbox">
+        <div class="TextforBox1">@Html.TextBoxFor(m => m.Ingrediënt)</div>
+        <div class="TextforBox2">@Html.TextBoxFor(m => m.Hoeveelheid)</div>
+        <div class="TextforBox3">@Html.TextBoxFor(m => m.Eenheid)</div><br />
+    </div>

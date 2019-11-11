@@ -1,0 +1,8 @@
+C:\Users\Koen\source\repos\Kookboek\KookboekDB\bin\Debug\netcoreapp3.0\KookboekDB.deps.json
+C:\Users\Koen\source\repos\Kookboek\KookboekDB\bin\Debug\netcoreapp3.0\KookboekDB.dll
+C:\Users\Koen\source\repos\Kookboek\KookboekDB\obj\Debug\netcoreapp3.0\KookboekDB.csprojAssemblyReference.cache
+C:\Users\Koen\source\repos\Kookboek\KookboekDB\obj\Debug\netcoreapp3.0\KookboekDB.AssemblyInfoInputs.cache
+C:\Users\Koen\source\repos\Kookboek\KookboekDB\obj\Debug\netcoreapp3.0\KookboekDB.AssemblyInfo.cs
+C:\Users\Koen\source\repos\Kookboek\KookboekDB\bin\Debug\netcoreapp3.0\KookboekDB.pdb
+C:\Users\Koen\source\repos\Kookboek\KookboekDB\obj\Debug\netcoreapp3.0\KookboekDB.dll
+C:\Users\Koen\source\repos\Kookboek\KookboekDB\obj\Debug\netcoreapp3.0\KookboekDB.pdb

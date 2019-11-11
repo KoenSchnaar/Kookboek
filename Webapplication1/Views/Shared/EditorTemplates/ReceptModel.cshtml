@@ -1,0 +1,19 @@
+﻿@model Kookboek.Models.ReceptModel
+
+@Html.LabelFor(m => m.Gerecht)
+<br />
+@Html.TextBoxFor(m => m.Gerecht)
+<br />
+@Html.LabelFor(m => m.Bereidingstijd)
+<br />
+@Html.TextBoxFor(m => m.Bereidingstijd)
+<br />
+@Html.LabelFor(m => m.Beschrijving)
+<br />
+@Html.TextBoxFor(m => m.Beschrijving)
+<br />
+@Html.LabelFor(m => m.Vegetarisch)
+@Html.CheckBoxFor(m => m.Vegetarisch)
+<br />
+
+@Html.EditorFor(m => Model.Ingrediënten) 

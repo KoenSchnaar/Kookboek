@@ -1,0 +1,20 @@
+﻿@model Kookboek.Models.ReceptModel
+
+    <tr>
+        <td> @Model.Foto </td>
+        <td> @Model.Gerecht </td>
+        <td> @{
+            if (Model.Vegetarisch)
+            {
+            <text>ja</text>
+            }
+            else
+            {
+            <text>Nee</text>
+            }
+            }</td>
+        <td> @Model.Bereidingstijd </td>
+        <td> @Model.AantalIngrediënten </td>
+        <td> @Model.Beschrijving </td>
+        <td><a class="nav-link text-dark" asp-area="" asp-controller="Recept" asp-action="DeleteRecept" asp-route-gerechtID="@Model.GerechtId">Delete</a></td>
+    </tr>
